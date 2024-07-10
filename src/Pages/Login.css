@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  background-color: #0c0cf8; /* Background color similar to the image */
+}
+
+.title {
+  color: rgb(250, 248, 248);
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-box {
+  background-color: white;
+  padding: 30px 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width:400px;
+  height: 600px;
+  
+}
+
+.login-title {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 20px;
+  background-color: #800080; /* Button color similar to the image */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.login-button:hover {
+  background-color: #600060;
+  font-size: 20px;
+}
+
+.register-link {
+  display: block;
+  margin-top: 15px;
+  color: #800080; /* Link color similar to the image */
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}

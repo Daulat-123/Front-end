@@ -1,0 +1,53 @@
+/* Table.css */
+.table-container {
+    padding: 500px;
+    height: 900px;
+    width: 1200px;
+    align-items: center;
+  }
+  
+  .styled-table {
+    border-collapse: collapse;
+    text-align: left;
+    border: 10px solid #dddddd;
+    height: 100px;
+    
+
+  }
+  
+  .styled-table thead tr {
+    background-color: #009879;
+    color: #080808;
+    padding: 100px;
+
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    padding: 25px 30px;
+    border: 10px solid #dddddd;
+    align-items: left;
+    font-size: 50px;
+  }
+  
+  .styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  .up{
+    text-align: right;
+    font-size: 40px;
+    font-weight: bold;
+    
+  }
+  .bo{
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .de{
+    text-align: left;
+    font-size: 40px;
+    padding: 1px;
+    font-weight: bold;
+  }
+  

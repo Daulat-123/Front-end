@@ -1,0 +1,35 @@
+/* Contact.css */
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  .contact-container h1 {
+    font-size: 90px;
+    margin-bottom: 40px;
+  }
+  
+  .contact-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    padding: 20px;
+    border: 8px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .contact-icon {
+    margin-right: 10px;
+    font-size: 60px;
+    color: #f55e5e;
+  }
+  
